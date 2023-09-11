@@ -48,17 +48,24 @@ body, html{
         }
     }
     .box-container{
-        padding-top: 30px;
-        margin-left: 30px;
-        .box-st{
+        margin: 30px;
+        .box-st, .box-nd{
+            display: flex;
+            flex-direction: column;
             width: 250px;
-            height: 200px;
-            background-color: aqua;
-        }
-        .box-nd{
-            width: 250px;
-            height: 200px;
-            background-color: aqua;
+            min-height: 200px;
+            background-color: rgb(244, 245, 245);
+            border-radius: 5%;
+            padding: 10px;
+            .list{
+                margin-top: 15px;
+                .list-group-item{
+                    border-radius: 8px;
+                }
+            }
+            .bottom{
+                padding-top: 10px;
+            }
         }
     }
 }

@@ -47,16 +47,23 @@ body, html {
   background-color: rgba(218, 171, 171, 0.3);
 }
 .main-container .box-container {
-  padding-top: 30px;
-  margin-left: 30px;
+  margin: 30px;
 }
-.main-container .box-container .box-st {
+.main-container .box-container .box-st, .main-container .box-container .box-nd {
+  display: flex;
+  flex-direction: column;
   width: 250px;
-  height: 200px;
-  background-color: aqua;
+  min-height: 200px;
+  background-color: rgb(244, 245, 245);
+  border-radius: 5%;
+  padding: 10px;
 }
-.main-container .box-container .box-nd {
-  width: 250px;
-  height: 200px;
-  background-color: aqua;
+.main-container .box-container .box-st .list, .main-container .box-container .box-nd .list {
+  margin-top: 15px;
+}
+.main-container .box-container .box-st .list .list-group-item, .main-container .box-container .box-nd .list .list-group-item {
+  border-radius: 8px;
+}
+.main-container .box-container .box-st .bottom, .main-container .box-container .box-nd .bottom {
+  padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */
