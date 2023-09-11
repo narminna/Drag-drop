@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+}
+.main-container{
+    background-image: url("https://www.andylacroce.com/wp-content/uploads/2016/09/0.08051100-1474073221.facebook_1474073013265.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    header{
+        background: rgba(0, 0, 0, 0.3);
+
+        .buttons{
+            padding: 20px;
+            .left-btn, .right-btn {
+                button {
+                    margin: 0 10px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    border: none;
+                    background-color: transparent;
+                    color: aliceblue;
+                    .name{
+                        font-size: 20px;
+                    }
+                    .share{
+                        background: rgba(218, 171, 171, 0.3);
+                        height: 30px;
+                        width: 70px;
+                        justify-content: center;
+                        border-radius: 5%;
+                    }
+                    &:hover{
+                        background-color: rgba(218, 171, 171, 0.3);
+                    }
+                }
+            }
+        }
+    }
+    .box-container{
+        padding-top: 30px;
+        margin-left: 30px;
+        .box-st{
+            width: 250px;
+            height: 200px;
+            background-color: aqua;
+        }
+        .box-nd{
+            width: 250px;
+            height: 200px;
+            background-color: aqua;
+        }
+    }
+}

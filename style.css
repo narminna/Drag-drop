@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.main-container {
+  background-image: url("https://www.andylacroce.com/wp-content/uploads/2016/09/0.08051100-1474073221.facebook_1474073013265.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-container header {
+  background: rgba(0, 0, 0, 0.3);
+}
+.main-container header .buttons {
+  padding: 20px;
+}
+.main-container header .buttons .left-btn button, .main-container header .buttons .right-btn button {
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  color: aliceblue;
+}
+.main-container header .buttons .left-btn button:first-child, .main-container header .buttons .right-btn button:first-child {
+  margin-left: 0;
+}
+.main-container header .buttons .left-btn button:last-child, .main-container header .buttons .right-btn button:last-child {
+  margin-right: 0;
+}
+.main-container header .buttons .left-btn button .name, .main-container header .buttons .right-btn button .name {
+  font-size: 20px;
+}
+.main-container header .buttons .left-btn button .share, .main-container header .buttons .right-btn button .share {
+  background: rgba(218, 171, 171, 0.3);
+  height: 30px;
+  width: 70px;
+  justify-content: center;
+  border-radius: 5%;
+}
+.main-container header .buttons .left-btn button:hover, .main-container header .buttons .right-btn button:hover {
+  background-color: rgba(218, 171, 171, 0.3);
+}
+.main-container .box-container {
+  padding-top: 30px;
+  margin-left: 30px;
+}
+.main-container .box-container .box-st {
+  width: 250px;
+  height: 200px;
+  background-color: aqua;
+}
+.main-container .box-container .box-nd {
+  width: 250px;
+  height: 200px;
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */
